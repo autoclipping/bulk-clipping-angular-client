@@ -5,7 +5,7 @@
 This repository contains the source code of bulk clipping client
 running at [Autoclipping.com](https://autoclipping.com)
 
-Feel free to fork this project to use as a starting point for our own solutions using our [API](https://autoclipping.com/bulkapi) .
+Feel free to fork this project to use as a starting point for your own solutions using our [API](https://autoclipping.com/bulkapi) .
 
 Requirements
 =============

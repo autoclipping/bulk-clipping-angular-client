@@ -1,8 +1,11 @@
 # README #
 
-Autoclipping Angular Bulk Clipping Client
+[Autoclipping.com](https://autoclipping.com) Angular Bulk Clipping Client
 
-Feel free to fork this project to use as a starting point for our own solutions using our API.
+This repository contains the source code of bulk clipping client
+running at [Autoclipping.com](https://autoclipping.com)
+
+Feel free to fork this project to use as a starting point for our own solutions using our [API](https://autoclipping.com/bulkapi) .
 
 Requirements
 =============

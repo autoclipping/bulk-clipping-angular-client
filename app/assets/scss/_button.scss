@@ -1,0 +1,87 @@
+.ac-up-down-btn {
+  align-items: center;
+  background-color: $ac-red;
+  border-radius: 22px;
+  display: flex;
+  height: 44px;
+  padding: 0 48px 0 20px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: opacity .2s ease-in-out;
+
+  &-anim {
+    height: 14px;
+
+    span {
+      float: left;
+      font-size: 14px;
+      height: 14px;
+      opacity: 0;
+      width: 10px;
+
+      &::after {
+        color: #f0ff00;
+        content: '>';
+        font-weight: bold;
+      }
+
+      &:nth-of-type(1) {
+        animation: 1.8s blink infinite 0.33s;
+      }
+
+      &:nth-of-type(2) {
+        animation: 1.8s blink infinite 0.66s;
+      }
+
+      &:nth-of-type(3) {
+        animation: 1.8s blink infinite 0.99s;
+      }
+    }
+      @keyframes blink {
+        50% {
+          opacity: 1;
+        }
+      }
+  }
+
+  &-title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 0 10px;
+  }
+
+  &::after {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: '';
+    height: 29px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 28px;
+  }
+
+  &.m-upload {
+    &::after {
+      background-image: url('/assets/img/ac_patches_icon_1.svg');
+    }
+  }
+
+  &.m-download {
+    &::after {
+      background-image: url('/assets/img/ac_patches_icon_2.svg');
+    }
+  }
+
+  &-icon {
+    height: 29px;
+  }
+
+  &:hover {
+    opacity: .8;
+  }
+}

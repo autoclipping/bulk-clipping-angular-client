@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="21px" viewBox="0 0 20 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <path d="M10.1540998,0.5003 C4.72909982,0.5003 0.331099821,4.8983 0.331099821,10.3233 C0.331099821,15.7483 4.72909982,20.1463 10.1540998,20.1463 C15.5790998,20.1463 19.9770998,15.7483 19.9770998,10.3233 C19.9770998,4.8983 15.5790998,0.5003 10.1540998,0.5003 Z" id="Fill-1-path" fill="#F25E5D"></path>
+            <path d="M10.1540998,17.5503 C9.34509982,17.5503 8.69009982,16.8943 8.69009982,16.0863 C8.69009982,15.2773 9.34509982,14.6223 10.1540998,14.6223 C10.9630998,14.6223 11.6180998,15.2773 11.6180998,16.0863 C11.6180998,16.8943 10.9630998,17.5503 10.1540998,17.5503 Z" id="Fill-1-path" fill="#F0FF00"></path>
+            <polygon id="Fill-1-path" fill="#F0FF00" points="8.95409982 13.1753 11.3540998 13.1753 11.3540998 3.0963 8.95409982 3.0963"></polygon>
+        </g>
+    </g>
+</svg>

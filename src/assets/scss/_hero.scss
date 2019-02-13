@@ -1,0 +1,128 @@
+.ac-hero {
+  background-image: url('https://d1q1x53g5ys27r.cloudfront.net/images/base/pagehead01.2.png');
+  position: relative;
+  padding: 220px 100px 80px;
+
+  @media only screen and (max-width: 1420px) {
+    padding: 220px 40px 80px;
+  }
+
+  @media (max-width: 700px) {
+    padding: 140px 20px 40px;
+  }
+}
+
+.ac-hero-main {
+  display: flex;
+  flex-wrap: wrap;
+
+  &-copy {
+    flex: 0 0 700px;
+
+    @media (max-width: 700px) {
+      flex: auto;
+    }
+
+    &-l {
+      color: #fff;
+      font-size: 52px;
+      font-weight: 100;
+      line-height: 60px;
+      text-transform: uppercase;
+
+      @media (max-width: 700px) {
+        font-size: 30px;
+        line-height: 36px;
+      }
+
+      strong {
+        font-weight: normal;
+      }
+    }
+
+    &-s {
+      color: #fff;
+      font-size: 21px;
+      font-weight: 300;
+      line-height: 30px;
+      letter-spacing: .005em;
+      margin-top: 30px;
+
+      @media (max-width: 700px) {
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
+
+  &-image {
+
+    @media (max-width: 1300px) {
+      display: none;
+    }
+
+    figure {
+      img {
+        max-width: 500px;
+        max-height: 270px;
+      }
+    }
+  }
+}
+
+.ac-hero-cta {
+  align-items: center;
+  background-color: #2F3638;
+  border-top: 2px solid #26282A;
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.ac-hero-counter {
+  background-image: url('https://d1q1x53g5ys27r.cloudfront.net/images/base/pagehead01.2.png');
+  height: 136px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+
+  &::after {
+    background: radial-gradient(circle, rgba(#e5e5e5, .2) 0%, rgba(#e5e5e5, 0) 70%);
+    content: '';
+    height: 587px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 587px;
+    z-index: 1;
+  }
+
+  &-main {
+    position: relative;
+    z-index: 2;
+
+    &-title {
+      color: #E5E5E5;
+      font-size: 14px;
+      font-weight: normal;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+    }
+
+    &-int {
+      color: #E5E5E5;
+      font-size: 52px;
+      font-weight: 200;
+
+      @media (max-width: 700px) {
+        font-size: 42px;
+      }
+    }
+  }
+}

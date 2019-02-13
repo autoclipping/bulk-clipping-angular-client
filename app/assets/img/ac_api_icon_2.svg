@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="15px" viewBox="0 0 21 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3fashion-lres-</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.0003 0.0004 20.149 0.0004 20.149 14.792 0.0003 14.792"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-50.000000, -366.000000)">
+            <g id="Group-3" transform="translate(50.000000, 366.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M16.8633,7.0444 C14.0173,4.9884 11.4473,4.5454 10.0313,4.4804 L10.0313,0.0004 L0.0003,7.3964 L10.0313,14.7924 L10.0313,9.9804 C10.7793,9.9834 11.6993,10.0154 12.8523,10.1154 C17.4373,10.5114 20.1323,13.6304 20.1323,13.6304 C20.1323,13.6304 20.5823,9.7314 16.8633,7.0444" id="Fill-1" fill="#58585B" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

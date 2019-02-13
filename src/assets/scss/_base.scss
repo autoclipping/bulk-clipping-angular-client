@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700');
+
+$main-font: 'Work Sans', sans-serif;
+
+$ac-red: #F25E5D;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $main-font;
+}

@@ -1,0 +1,585 @@
+$ac-gray: #e5e5e5;
+$ac-dark: #303638;
+$ac-dark-2: #484f51;
+
+@mixin easing($elem, $time) {
+  transition: $elem $time ease-in-out;
+}
+
+@mixin patchesIcon($icon, $icon-w, $icon-h) {
+  background-image: url('../img/' + $icon);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: '';
+  height: $icon-h;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: $icon-w;
+}
+
+.ac-patches-main {
+  background-image: url('https://d1q1x53g5ys27r.cloudfront.net/images/base/pagehead01.2.png');
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  position: relative;
+
+  &::before {
+    background: linear-gradient(to right, rgba($ac-dark-2, 1) 0%, rgba($ac-dark-2, 1) 40%, rgba($ac-dark-2, 0) 100%);
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+}
+
+.ac-patches {
+  position: relative;
+  z-index: 2;
+
+  &-title {
+    color: $ac-gray;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-bottom: 10px;
+  }
+}
+
+.ac-paches-list {
+
+  &-item {
+    align-items: center;
+    border: 2px solid $ac-dark;
+    border-radius: 4px;
+    display: flex;
+    height: 40px;
+    margin-bottom: 5px;
+    padding: 0 3px;
+    text-decoration: none;
+    width: 140px;
+
+    &:hover {
+      .ac-paches-list-item-date {
+        background-color: #000;
+      }
+    }
+
+    &.m-has-message {
+      width: auto;
+    }
+
+    &-date {
+      @include easing(background-color, .2s);
+      align-items: center;
+      background-color: $ac-dark;
+      border-radius: 2px;
+      display: flex;
+      height: 30px;
+      padding-left: 40px;
+      position: relative;
+      width: 130px;
+
+      &::before {
+        @include patchesIcon('ac_patches_icon_4.svg', 18px, 18px);
+        left: 9px;
+      }
+
+      span {
+        color: $ac-gray;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16px;
+      }
+    }
+
+    &-message {
+      color: $ac-gray;
+      font-size: 14px;
+      font-weight: 700;
+      margin-left: 18px;
+      padding: 0 20px 0 30px;
+      position: relative;
+      text-transform: uppercase;
+
+      &::before {
+        @include patchesIcon('ac_patches_icon_7.svg', 20px, 20px);
+        left: 0;
+      }
+
+      span {
+        font-weight: normal;
+      }
+    }
+  }
+}
+
+.ac-patches-all {
+  align-items: center;
+  display: flex;
+
+  &:hover {
+    cursor: pointer;
+
+    .ac-patches-all-btn::before {
+      background-color: #000;
+    }
+  }
+
+  &-btn {
+    border-radius: 4px;
+    border: 2px solid $ac-dark;
+    display: block;
+    height: 40px;
+    width: 42px;
+    position: relative;
+
+    &::before {
+      @include easing(background-color, .2s);
+      background-color: $ac-dark;
+      border-radius: 2px;
+      content: '';
+      height: 30px;
+      left: 50%;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 30px;
+    }
+
+    &::after {
+      @include patchesIcon('ac_patches_icon_8.svg', 14px, 9px);
+      left: 12px;
+    }
+  }
+
+  &-title {
+    color: $ac-gray;
+    font-size: 14px;
+    font-weight: normal;
+    margin-left: 10px;
+    text-transform: uppercase;
+  }
+}
+
+.ac-patches-credits {
+  padding-top: 30px;
+  text-align: right;
+
+  &-title {
+    color: $ac-gray;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+
+  &-btn {
+    @include easing(opacity, .2s);
+    align-items: center;
+    border-radius: 4px;
+    border: 2px solid $ac-red;
+    display: flex;
+    height: 40px;
+    margin-top: 10px;
+    justify-content: center;
+    position: relative;
+    text-decoration: none;
+    width: 214px;
+
+    &:hover {
+      opacity: .8;
+    }
+
+    &::before {
+      background-color: $ac-red;
+      border-radius: 2px;
+      content: '';
+      height: 30px;
+      left: 50%;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 204px;
+      z-index: 1;
+    }
+
+    span {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 700;
+      position: relative;
+      text-transform: uppercase;
+      z-index: 2;
+    }
+  }
+}
+
+.ac-patches-filter {
+  background-color: #e0e7e8;
+  padding: 18px 40px;
+  width: 100%;
+}
+
+.ac-patches-filter-list {
+  display: flex;
+  align-items: center;
+
+  &-item {
+    margin-right: 16px;
+
+    &-btn {
+      @include easing(background-color, .2s);
+      border-radius: 4px;
+      background-color: $ac-dark-2;
+      box-shadow: -2px 2px 5px 0 rgba(0,0,0, .4);
+      align-items: center;
+      color: #fff;
+      display: flex;
+      font-size: 14px;
+      font-weight: 700;
+      height: 40px;
+      letter-spacing: .05em;
+      padding: 0 18px 0 44px;
+      position: relative;
+      text-decoration: none;
+      text-transform: uppercase;
+
+      &:hover {
+        background-color: #000;
+      }
+
+      &.m-active {
+        background-color: $ac-red;
+      }
+
+      &.m-back::before {
+        @include patchesIcon('ac_patches_icon_9.svg', 19px, 14px);
+        left: 14px;
+      }
+
+      &.m-removed::before {
+        @include patchesIcon('ac_patches_icon_5.svg', 22px, 22px);
+        left: 14px;
+      }
+
+      &.m-queue::before {
+        @include patchesIcon('ac_patches_icon_6.svg', 15px, 27px);
+        left: 14px;
+      }
+
+      &.m-download::before {
+        @include patchesIcon('ac_patches_icon_2.svg', 21px, 22px);
+        left: 14px;
+      }
+
+      span {
+        font-weight: normal;
+        margin-left: 5px;
+      }
+    }
+  }
+}
+
+.ac-patch-hgroup {
+  background-color: #edf1f2;
+  padding: 20px 40px;
+
+  &-title {
+    color: $ac-red;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+    padding-left: 30px;
+    position: relative;
+    text-transform: uppercase;
+
+    &::before {
+      @include patchesIcon('ac_patches_icon_4_dark.svg', 18px, 18px);
+      left: 0;
+    }
+  }
+}
+
+.ac-patch {
+}
+
+.ac-patch-list {
+  background-color: #edf1f2;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ac-patch-list-item {
+  margin: 0 10px 40px;
+  width: 312px;
+}
+
+.ac-patch-list-item-main {
+  border: 4px solid transparent;
+  height: 307px;
+  position: relative;
+  width: 100%;
+
+  &.m-active {
+    border-color: #d6d6d6;
+  }
+
+  &-image {
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    height: 244px;
+    justify-content: center;
+
+    img {
+      max-height: 200px;
+      max-width: 200px;
+    }
+  }
+
+  &-message {
+    left: 0;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    z-index: 2;
+
+    span {
+      align-items: center;
+      background-color: rgba(#f1f1f1, .87);
+      border-radius: 17px;
+      color: $ac-dark-2;
+      display: flex;
+      font-size: 16px;
+      font-weight: 700;
+      height: 34px;
+      justify-content: center;
+      margin: auto;
+      max-width: 85%;
+      text-transform: uppercase;
+    }
+  }
+
+  &-options {
+    display: flex;
+    height: 55px;
+    width: 100%;
+
+    &-item {
+      @include easing(background-color, .2s);
+      background-color: #9CA1A2;
+      align-items: center;
+      display: flex;
+      flex: 1;
+      height: 100%;
+      justify-content: center;
+      text-decoration: none;
+
+      &:hover,
+      &.m-active {
+        background-color: $ac-dark;
+      }
+
+      span {
+        color: #fff;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: .05em;
+        text-transform: uppercase;
+      }
+
+      &.m-preview {
+        border-left: 1px solid $ac-dark;
+        border-right: 1px solid $ac-dark;
+        flex: 0 0 54px;
+        position: relative;
+
+        &::after {
+          @include patchesIcon('ac_patches_icon_3.svg', 39px, 24px);
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+
+        span {
+          display: none;
+        }
+      }
+
+      span {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.ac-patch-list-item-title {
+  color: $ac-dark;
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.ac-patch-upload {
+  align-items: center;
+  background-color: #2F3638;
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.ac-patch-download {
+  background-color: #2F3638;
+  padding: 20px 0 30px;
+  position: relative;
+  width: 100%;
+
+  &-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.ac-patch-download-progress {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+
+  &-main {
+    align-items: center;
+    display: flex;
+    width: 300px;
+
+    &-bar {
+      background-color: #fff;
+      border-radius: 2px;
+      flex: 1;
+      height: 4px;
+      overflow: hidden;
+      position: relative;
+
+      span {
+        background-color: $ac-red;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+      }
+    }
+
+    &-percent {
+      flex: 0 0 40px;
+      text-align: right;
+      height: 16px;
+
+      span {
+        color: #fff;
+        font-size: 13px;
+        line-height: 16px;
+      }
+    }
+  }
+}
+
+.ac-patch-preview {
+  animation: previewFadein .8s both;
+  background-color: rgba(#222526, .83);
+  height: 100vh;
+  opacity: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.m-fadeOut {
+    animation: previewFadeOut .5s both;
+  }
+
+  &-main {
+    position: relative;
+
+    &-close {
+      background-color: $ac-red;
+      height: 76px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 76px;
+      z-index: 2;
+
+      span {
+        display: none;
+      }
+
+      &::after {
+        @include patchesIcon('ac_patches_icon_10.svg', 32px, 32px);
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+
+    &-image {
+      background-color: #fff;
+      padding: 100px;
+      display: flex;
+      justify-content: center;
+
+      @media (max-width: 900px) {
+        padding: 80px 30px;
+      }
+
+      img {
+        margin: auto;
+        max-height: 50vh;
+        max-width: 100%;
+      }
+    }
+
+    &-title {
+      background-color: $ac-dark;
+      padding: 15px 0;
+      text-align: center;
+      width: 100%;
+
+      span {
+        color: #fff;
+        font-size: 13px;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+@keyframes previewFadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes previewFadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

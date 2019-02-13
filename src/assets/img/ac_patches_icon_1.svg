@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="29px" viewBox="0 0 28 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.9824 27.3369 0.9824 27.3369 12 0 12"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-391.000000, -471.000000)">
+            <g id="Group-6" transform="translate(391.000000, 471.000000)">
+                <g id="Group-3" transform="translate(0.000000, 16.469700)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M24.8369,0.9824 L24.8369,6.4904 C24.8369,8.1494 23.4859,9.5004 21.8269,9.5004 L5.5099,9.5004 C3.8509,9.5004 2.4999,8.1494 2.4999,6.4904 L2.4999,0.9824 L-0.0001,0.9824 L-0.0001,6.4904 C-0.0001,9.5284 2.4719,12.0004 5.5099,12.0004 L21.8269,12.0004 C24.8649,12.0004 27.3369,9.5284 27.3369,6.4904 L27.3369,0.9824 L24.8369,0.9824 Z" id="Fill-1" fill="#FEFEFE" mask="url(#mask-2)"></path>
+                </g>
+                <polygon id="Fill-4" fill="#FEFEFE" points="12.4189 4.8141 12.4189 19.5451 14.9189 19.5451 14.9189 4.6681 20.1459 9.8941 21.9129 8.1271 13.7859 0.0001 5.4379 8.1141 7.1799 9.9071"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

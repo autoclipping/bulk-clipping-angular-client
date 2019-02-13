@@ -1,0 +1,19 @@
+{
+    "rulesDirectory": [
+        "node_modules/codelyzer"
+    ],
+    "extends": [
+        "angular-tslint-rules"
+    ],
+    "rules": {
+        "component-selector": [
+            true,
+            "element",
+            ["ac", "test"],
+            "kebab-case"
+        ],
+        "curly": true,
+        "i18n": false,
+        "trackBy-function": false
+    }
+}

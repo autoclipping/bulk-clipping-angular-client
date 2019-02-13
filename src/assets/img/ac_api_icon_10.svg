@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="23px" viewBox="0 0 29 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8fashion-lres-</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.0004 0.9561 28.605 0.9561 28.605 24 0.0004 24"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-274.000000, -291.000000)">
+            <g id="Group-8" transform="translate(274.000000, 290.000000)">
+                <polygon id="Fill-1" fill="#FEFEFE" points="3.0283 20.1054 8.7923 11.8134 12.1003 15.3524 18.1963 7.9704 25.0723 16.7684 25.0723 20.1054"></polygon>
+                <g id="Group-7" transform="translate(0.000000, 0.043900)">
+                    <g id="Group-4">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-3"></g>
+                        <path d="M3.2764,1.9561 C2.0214,1.9561 1.0004,2.9771 1.0004,4.2321 L1.0004,20.7241 C1.0004,21.9781 2.0214,23.0001 3.2764,23.0001 L25.3294,23.0001 C26.5844,23.0001 27.6054,21.9781 27.6054,20.7241 L27.6054,4.2321 C27.6054,2.9771 26.5844,1.9561 25.3294,1.9561 L3.2764,1.9561 Z M25.3294,24.0001 L3.2764,24.0001 C1.4694,24.0001 0.0004,22.5301 0.0004,20.7241 L0.0004,4.2321 C0.0004,2.4261 1.4694,0.9561 3.2764,0.9561 L25.3294,0.9561 C27.1354,0.9561 28.6054,2.4261 28.6054,4.2321 L28.6054,20.7241 C28.6054,22.5301 27.1354,24.0001 25.3294,24.0001 Z" id="Fill-2" fill="#FEFEFE" mask="url(#mask-2)"></path>
+                    </g>
+                    <path d="M10.207,7.1689 C10.207,8.4809 9.144,9.5449 7.831,9.5449 C6.519,9.5449 5.455,8.4809 5.455,7.1689 C5.455,5.8569 6.519,4.7919 7.831,4.7919 C9.144,4.7919 10.207,5.8569 10.207,7.1689" id="Fill-5" fill="#FEFEFE"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

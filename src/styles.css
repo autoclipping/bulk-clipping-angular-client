@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+.hidden {
+    display: none;
+}
+
+.ngx-pagination li:not(.pagination-previous):not(.pagination-next) {
+    display: none;
+}
+
+/* to override ngx-pagination style */
+.ngx-pagination *:hover {
+    background: transparent !important;
+}
+
+.ngx-pagination a:focus {
+    outline-width: 0;
+}
+
+/* to override assets/css/style.css */
+.ac-patch-preview-main-image img {
+    max-height: 70vh !important;
+}
+
+/* to override assets/css/style.css */
+.out-of-credits {
+    color: #F25E5D !important;
+}
+
+a {
+    cursor: pointer;
+}
+
+.file-list-loader-block {
+     padding: 40px 40px 40px 40px;
+     width: 100%;
+     background: #edf1f2;
+     text-align: justify;
+ }
+
+.file-list-loader {
+    border: 5px solid #ECF1F2;
+    border-top: 5px solid #7D8A8E;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    background: #edf1f2;
+    animation: loader-spin 0.5s linear infinite;
+}
+
+@keyframes loader-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

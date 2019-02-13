@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="18px" viewBox="0 0 19 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3fashion-lres-</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.0002 0.0001 18.1426035 0.0001 18.1426035 17.5371 0.0002 17.5371"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-399.000000, -243.000000)">
+            <g id="Group-3" transform="translate(399.000000, 243.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M0.8872,9.2095 L4.1742,9.2095 C4.5042,9.2095 4.8072,9.0255 4.9602,8.7335 L7.4272,4.0105 C7.4932,3.8845 7.5282,3.7435 7.5282,3.6005 L7.5282,0.8885 C7.5282,0.1645 8.3482,-0.2545 8.9352,0.1695 L10.8242,1.5375 C11.0542,1.7035 11.1902,1.9705 11.1902,2.2555 L11.1902,5.7605 C11.1902,6.1715 11.4732,6.5295 11.8742,6.6235 L17.4592,7.9385 C17.8922,8.0395 18.1822,8.4465 18.1382,8.8895 L17.4602,15.6465 C17.4212,16.0275 17.1422,16.3415 16.7672,16.4235 L11.7922,17.5165 C11.7262,17.5315 11.6582,17.5385 11.5902,17.5375 L5.2902,17.4495 L0.8872,17.4495 C0.3972,17.4495 0.0002,17.0525 0.0002,16.5625 L0.0002,10.0965 C0.0002,9.6065 0.3972,9.2095 0.8872,9.2095" id="Fill-1" fill="#404F52" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

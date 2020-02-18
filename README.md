@@ -9,8 +9,8 @@ Feel free to fork this project to use as a starting point for your own solutions
 
 Requirements
 =============
-* Angular 7.0.0
-* Node >= 8.9
+* Angular 9.0.1
+* Node >= 10.13
 
 Resources
 =========

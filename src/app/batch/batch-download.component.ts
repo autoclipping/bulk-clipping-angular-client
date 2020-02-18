@@ -27,7 +27,7 @@ import { BatchManager } from '../core/manager/batch-manager';
 })
 export class BatchDownloadComponent {
     @Input() batchId: string;
-    @ViewChild(ProgressComponent) progressComponent: ProgressComponent;
+    @ViewChild(ProgressComponent, { static: true }) progressComponent: ProgressComponent;
     progress: number;
     notificationMessage = 'There are no images to download';
     notificationType = 'error'

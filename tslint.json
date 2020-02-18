@@ -13,7 +13,7 @@
             "kebab-case"
         ],
         "curly": true,
-        "i18n": false,
-        "trackBy-function": false
+        "template-i18n": false,
+        "template-use-track-by-function": false
     }
 }

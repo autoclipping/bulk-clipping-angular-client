@@ -38,7 +38,7 @@ import { Component, OnInit, EventEmitter, Output, ViewChild, ElementRef } from '
 })
 export class HelpVideoComponent implements OnInit {
   @Output() hide: EventEmitter<boolean> = new EventEmitter();
-  @ViewChild('videoTut') video: ElementRef
+  @ViewChild('videoTut', { static: true }) video: ElementRef
   
   clickHereToPlayVideo: boolean = false
 
